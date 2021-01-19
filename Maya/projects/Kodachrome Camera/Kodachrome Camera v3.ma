@@ -1,6 +1,6 @@
 //Maya ASCII 2019 scene
-//Name: Kodachrome Camera v2.ma
-//Last modified: Tue, Jan 19, 2021 09:09:23 AM
+//Name: Kodachrome Camera v3.ma
+//Last modified: Tue, Jan 19, 2021 09:09:29 AM
 //Codeset: UTF-8
 requires maya "2019";
 requires "mtoa" "3.1.2";
@@ -3854,4 +3854,4 @@ connectAttr "groupId1.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId2.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId3.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId4.msg" ":initialShadingGroup.gn" -na;
-// End of Kodachrome Camera v2.ma
+// End of Kodachrome Camera v3.ma
