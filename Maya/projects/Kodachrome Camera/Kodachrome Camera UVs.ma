@@ -1,6 +1,6 @@
 //Maya ASCII 2019 scene
-//Name: Kodachrome Camera v9.ma
-//Last modified: Mon, Feb 08, 2021 09:07:52 AM
+//Name: Kodachrome Camera UVs.ma
+//Last modified: Mon, Feb 08, 2021 09:08:00 AM
 //Codeset: UTF-8
 file -rdi 1 -ns "Lens_Front" -rfn "Lens_FrontRN" -typ "image" "/Users/simon.c381/Documents/git/ALC-3D-Graphics-Animation-2021/Maya/projects/Kodachrome Camera//References/Lens Front.jpg";
 file -r -ns "Lens_Front" -dr 1 -rfn "Lens_FrontRN" -typ "image" "/Users/simon.c381/Documents/git/ALC-3D-Graphics-Animation-2021/Maya/projects/Kodachrome Camera//References/Lens Front.jpg";
@@ -80670,4 +80670,4 @@ connectAttr "groupId52.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId53.msg" ":initialShadingGroup.gn" -na;
 connectAttr "groupId59.msg" ":initialShadingGroup.gn" -na;
 connectAttr "aiSkyDomeLight1.iog" ":defaultLightSet.dsm" -na;
-// End of Kodachrome Camera v9.ma
+// End of Kodachrome Camera UVs.ma
