@@ -1,7 +1,12 @@
 //Maya ASCII 2019 scene
 //Name: Kodachrome Camera v9.ma
+<<<<<<< Updated upstream
 //Last modified: Thu, Feb 04, 2021 09:02:56 PM
 //Codeset: 1252
+=======
+//Last modified: Thu, Feb 04, 2021 10:09:06 AM
+//Codeset: UTF-8
+>>>>>>> Stashed changes
 file -rdi 1 -ns "Lens_Front" -rfn "Lens_FrontRN" -typ "image" "/Users/simon.c381/Documents/git/ALC-3D-Graphics-Animation-2021/Maya/projects/Kodachrome Camera//References/Lens Front.jpg";
 file -r -ns "Lens_Front" -dr 1 -rfn "Lens_FrontRN" -typ "image" "/Users/simon.c381/Documents/git/ALC-3D-Graphics-Animation-2021/Maya/projects/Kodachrome Camera//References/Lens Front.jpg";
 requires maya "2019";
@@ -18,15 +23,24 @@ fileInfo "osv" "Microsoft Windows 10 Technical Preview  (Build 14393)\n";
 fileInfo "license" "education";
 createNode transform -s -n "persp";
 	rename -uid "6C932AFF-D34A-BB60-568C-9F89638BD52A";
+<<<<<<< Updated upstream
 	setAttr ".t" -type "double3" 14.040139119762209 13.038586567324462 15.157610727974236 ;
 	setAttr ".r" -type "double3" -27.600000000006144 403.59999999999127 4.3919887679006384e-15 ;
+=======
+	setAttr ".t" -type "double3" -0.48145836735815101 14.751786124420185 16.652237441261292 ;
+	setAttr ".r" -type "double3" -31.800000000001443 717.19999999999789 0 ;
+>>>>>>> Stashed changes
 	setAttr ".rp" -type "double3" 8.8817841970012523e-16 -8.8817841970012523e-16 4.4408920985006262e-16 ;
 	setAttr ".rpt" -type "double3" 1.7616554369326397e-15 4.0665445835185692e-16 2.8254003997815625e-15 ;
 createNode camera -s -n "perspShape" -p "persp";
 	rename -uid "93DEBBAE-CE4B-97EB-0F40-78AB14580FEC";
 	setAttr -k off ".v";
 	setAttr ".fl" 34.999999999999979;
+<<<<<<< Updated upstream
 	setAttr ".coi" 23.302567385787029;
+=======
+	setAttr ".coi" 17.699466769804221;
+>>>>>>> Stashed changes
 	setAttr ".imn" -type "string" "persp";
 	setAttr ".den" -type "string" "persp_depth";
 	setAttr ".man" -type "string" "persp_mask";
